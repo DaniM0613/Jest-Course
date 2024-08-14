@@ -4,7 +4,7 @@
   "description": "Jest course",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --env=node",
     "test:coverage": "jest --coverage"
   },
   "keywords": [
@@ -17,6 +17,7 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
+    "axios": "^1.7.4",
     "xmlhttprequest": "^1.8.0"
   }
 }
