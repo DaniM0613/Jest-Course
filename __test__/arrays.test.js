@@ -1,5 +1,11 @@
 
-const {carsList} = require('../src/arrays')
+const {carsList, brandList} = require('../src/arrays')
+
+describe('Verificando las marcas existentes', () => {
+    test('Que el arreglo no sea null', () => {
+        expect(brandList()).not.toBeNull()
+    })
+})
 
 describe('Verificando los autos existentes', () => {
     test('Que el arreglo no sea null',() => {
